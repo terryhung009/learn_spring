@@ -33,12 +33,23 @@
 
 
 <!--    第三種   直接通過參數名name 賦值-->
-    <bean id="user" class="org.example.pojo.User">
-        <constructor-arg name="name" value="danny"></constructor-arg>
-    </bean>
+<!--    <bean id="user" class="org.example.pojo.User">-->
+<!--        <constructor-arg name="name" value="danny"></constructor-arg>-->
+<!--    </bean>-->
 
-    <bean id="userT" class="org.example.pojo.UserT">
+<!--    <bean id="userT" class="org.example.pojo.UserT">-->
 
-    </bean>
+<!--    </bean>-->
+
+<!--    別名  如果加了別名也可以使用別名獲取-->
+<!--    <alias name="user" alias="aaa"></alias>-->
+
+
+<!--    id : bean的唯一標示符  也就是物件名
+        class : bean 所對應的全名 : package + class
+        name : 也是別名,而且name 可以同時取多個別名
+
+-->
+    <bean id="userT" class="org.example.pojo.UserT" name="user2"></bean>
 
 </beans>
