@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    使用spring 來創建對象，在spring這些都稱為Bean
+        bean = object
+
+        Hello hello = new Hello();
+
+        id = 變量名;
+        class = new 的對象;
+        property = 給對象中的屬性設置一個值
+
+
+-->
+
+    <bean id="hello" class="pojo.Hello">
+        <!-- collaborators and configuration for this bean go here -->
+        <property name="name" value="spring"/>
+    </bean>
+
+<!--    <bean id="..." class="...">-->
+        <!-- collaborators and configuration for this bean go here -->
+<!--    </bean>-->
+
+    <!-- more bean definitions go here -->
+
+</beans>
