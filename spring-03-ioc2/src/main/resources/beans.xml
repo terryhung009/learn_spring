@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--    <bean id="..." class="...">-->
+    <!-- collaborators and configuration for this bean go here -->
+    <!--    </bean>-->
+    <!-- more bean definitions go here -->
+
+<!--    練習注入-->
+<!--    <bean id="user" class="org.example.pojo.User">-->
+<!--        <property name="name" value="danny"/>-->
+    <!--    </bean>-->
+
+
+
+<!--    第一種  下標index賦值-->
+<!--        <bean id="user" class="org.example.pojo.User">-->
+<!--            <constructor-arg index="0" value="danny"/>-->
+    <!--        </bean>-->
+
+
+
+
+    <!--    第二種  通過類型type賦值-->
+    <!--    不建議使用 如果有多個參數同類型-->
+<!--    <bean id="user" class="org.example.pojo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="danny"/>-->
+<!--    </bean>-->
+
+
+<!--    第三種   直接通過參數名name 賦值-->
+    <bean id="user" class="org.example.pojo.User">
+        <constructor-arg name="name" value="danny"></constructor-arg>
+    </bean>
+
+    <bean id="userT" class="org.example.pojo.UserT">
+
+    </bean>
+
+</beans>
