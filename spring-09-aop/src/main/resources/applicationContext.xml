@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+<!--註冊bean-->
+    <bean id="userService" class="danny.service.UserServiceImpl"/>
+    <bean id="log" class="danny.log.Log"/>
+    <bean id="afterlog" class="danny.log.AfterLog"/>
+
+<!--    方式一:使用Spring API接口-->
+<!--    配置apo:需要導入apo的約束-->
+<!--    <aop:config>-->
+<!--&lt;!&ndash;        切入點:expression:表達式execution(要執行的位置 * * * * *)&ndash;&gt;-->
+<!--        <aop:pointcut id="pointcut" expression="execution(* danny.service.UserServiceImpl.*(..))"/>-->
+<!--&lt;!&ndash;    執行環繞增加&ndash;&gt;-->
+<!--        <aop:advisor advice-ref="log" pointcut-ref="pointcut"/>-->
+<!--        <aop:advisor advice-ref="afterlog" pointcut-ref="pointcut"/>-->
+
+<!--    </aop:config>-->
+
+<!--    方式二 : 自定義類-->
+<!--    <bean id="diy" class="danny.diy.DiyPointCut"/>-->
+<!--    <aop:config>-->
+<!--&lt;!&ndash;        自定義切面，ref要引用的類&ndash;&gt;-->
+<!--        <aop:aspect ref="diy">-->
+<!--&lt;!&ndash;            切入點&ndash;&gt;-->
+<!--            <aop:pointcut id="jp" expression="execution(* danny.service.UserServiceImpl.*(..))"/>-->
+<!--&lt;!&ndash;        通知&ndash;&gt;-->
+<!--            <aop:before method="before" pointcut-ref="jp"/>-->
+<!--            <aop:after method="after" pointcut-ref="jp"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+<!--    方式三  -->
+    <bean id="annotationPointCut" class="danny.diy.AnnotationPointCut"/>
+<!--    開啟註解支持   JDK(預設 proxy-target-class="false")   cglib(proxy-target-class="true")  -->
+    <aop:aspectj-autoproxy />
+
+
+
+
+
+
+</beans>

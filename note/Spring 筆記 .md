@@ -622,5 +622,17 @@ AOP(aspect Oriented Programing)意為:面向切面編程，//TODO
 
 # 11.3 使用Spring實現AOP
 
-方式一 : 使用Spring的API接口
+方式一 : 使用Spring的API接口【主要Spring API接口實現】
+
+方式二 : 自定義來實現AOP【主要是切面定義】
+
+![img.png](img.png)
+
+方式三 : 使用註解實現
+
+注意導入的包
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
 

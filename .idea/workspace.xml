@@ -5,31 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c0fd6c-17f4-4493-ac97-8f1492f0f024" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/note/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo03/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo03/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo03/ProxyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo03/Rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo04/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo04/ProxyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/danny/log/AfterLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/danny/log/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/danny/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/danny/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/danny/diy/AnnotationPointCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/danny/diy/DiyPointCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note/Spring 筆記 .md" beforeDir="false" afterPath="$PROJECT_DIR$/note/Spring 筆記 .md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo01/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo01/Rent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -79,17 +64,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/work/JAVA/learn_java_web",
+    "last_opened_file_path": "D:/work/JAVA/intro_spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
-    "spring.configuration.checksum": "6c1f0814f04db576898a3bf40cb5f27b",
+    "spring.configuration.checksum": "103b1703eae968a96e4c4918289dc9ea",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -110,7 +95,7 @@
       <recent name="danny.demo04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.danny.demo03.Client">
+  <component name="RunManager" selected="Application.MyTest (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="danny.demo01.Client" />
       <module name="spring-08-proxy" />
@@ -124,9 +109,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-07-appconfig" />
+      <module name="spring-09-aop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest (1)" />
         <item itemvalue="Application.danny.demo03.Client" />
         <item itemvalue="Application.danny.demo04.Client" />
         <item itemvalue="Application.danny.demo02.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +175,8 @@
       <updated>1670071272464</updated>
       <workItem from="1670071273817" duration="9732000" />
       <workItem from="1670087183224" duration="17313000" />
-      <workItem from="1670124385355" duration="33208000" />
+      <workItem from="1670124385355" duration="34707000" />
+      <workItem from="1670190763897" duration="3247000" />
     </task>
     <servers />
   </component>
