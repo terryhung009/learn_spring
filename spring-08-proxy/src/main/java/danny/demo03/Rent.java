@@ -1,4 +1,4 @@
-package danny.demo01;
+package danny.demo03;
 
 interface Rent {
     void rent();
