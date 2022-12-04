@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+
+<!--    <bean id="cat" class="danny.Cat"/>-->
+<!--    <bean id="dog" class="danny.Dog"/>-->
+
+<!--
+    byName : 會自動在容器中上下文查找，和自己對象set方法後面的值對應的bean id
+    byType : 會自動在容器中上下文查找，和自己對象屬性類型相同的 bean
+-->
+<!--    <bean id="people" class="danny.People" autowire="byName">-->
+<!--        <property name="name" value="小黃"/>-->
+<!--    </bean>-->
+
+
+
+
+    <!--開啟註解的支持-->
+    <context:annotation-config/>
+<!--    改使用註解進行自動裝配-->
+
+    <bean id="cat1" class="danny.Cat"/>
+    <bean id="cat2" class="danny.Cat"/>
+    <bean id="dog222" class="danny.Dog"/>
+    <bean id="people" class="danny.People" />
+
+
+
+
+</beans>

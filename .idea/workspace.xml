@@ -5,17 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c0fd6c-17f4-4493-ac97-8f1492f0f024" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04-di/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/java/danny/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/java/danny/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/Spring 筆記 .md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/java/danny/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/userBeans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-autowired/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/main/java/danny/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/main/java/danny/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/main/java/danny/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/test/java/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-anno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/java/danny/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/java/danny/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/java/danny/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/java/danny/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/src/main/java/danny/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/src/main/java/danny/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/src/main/java/danny/config/MyConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo01/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo01/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo01/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo01/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo02/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo02/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo02/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/danny/demo02/UserServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ioc2/src/test/java/MyTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-ioc2/src/test/java/MyTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04-di/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +56,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,67 +96,91 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/work/JAVA/springBootRestApi",
+    "last_opened_file_path": "D:/work/JAVA/intro_spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "dc971a64790c5031ef1410dcaacdee3c",
+    "spring.configuration.checksum": "6c1f0814f04db576898a3bf40cb5f27b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\JAVA\intro_spring\note" />
+      <recent name="D:\work\JAVA\intro_spring" />
       <recent name="D:\work\JAVA\intro_spring\spring-03-ioc2\src\main\java\org\example" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="danny.demo02" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest1 (2)">
-    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.danny.demo02.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="danny.demo01.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="danny.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-02-hellospring" />
+      <module name="spring-07-appconfig" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="danny.demo02.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="danny.demo02.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="danny.demo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-05-autowired" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest1" />
-      <module name="spring-03-ioc2" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest1" />
-      <module name="spring-04-di" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest1" />
-      <module name="spring-01-ioc1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest2" />
-      <module name="spring-01-ioc1" />
+    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-06-anno" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyTest1 (2)" />
-        <item itemvalue="Application.MyTest1 (1)" />
-        <item itemvalue="Application.MyTest2" />
-        <item itemvalue="Application.MyTest (1)" />
-        <item itemvalue="Application.MyTest1" />
+        <item itemvalue="Application.danny.demo02.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="JUnit.MyTest.test2" />
+        <item itemvalue="JUnit.MyTest1.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +193,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670071272464</updated>
       <workItem from="1670071273817" duration="9732000" />
-      <workItem from="1670087183224" duration="10187000" />
+      <workItem from="1670087183224" duration="17313000" />
+      <workItem from="1670124385355" duration="21824000" />
     </task>
     <servers />
   </component>
