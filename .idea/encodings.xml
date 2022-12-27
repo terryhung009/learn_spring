@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/leaenSpringBoot/code/helloworld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leaenSpringBoot/code/helloworld/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leaenSpringBoot/狂神說/code/helloworld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leaenSpringBoot/狂神說/code/helloworld/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-01-ioc1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-01-ioc1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-02-hellospring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-02-hellospring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-03-ioc2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-03-ioc2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-04-di/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-04-di/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-05-autowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-05-autowired/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-06-anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-06-anno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-07-appconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-07-appconfig/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-08-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-08-proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-09-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/spring-09-aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learnSpring/狂神說/code/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springDataJpaDemo2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springDataJpaDemo2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_vue_demo1/spirngboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_vue_demo1/spirngboot/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

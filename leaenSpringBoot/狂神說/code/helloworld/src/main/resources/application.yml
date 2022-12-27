@@ -1,0 +1,4 @@
+# springboot ??????
+
+server:
+  port: 9090
