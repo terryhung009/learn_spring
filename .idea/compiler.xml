@@ -7,22 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="helloworld" />
-        <module name="spring-02-hellospring" />
-        <module name="spring-04-di" />
-        <module name="spring-05-autowired" />
-        <module name="spring-08-proxy" />
-        <module name="springboot_vue" />
-        <module name="spring-06-anno" />
-        <module name="spring-09-aop" />
-        <module name="spring-03-ioc2" />
-        <module name="spring-07-appconfig" />
-        <module name="spring-01-ioc1" />
+        <module name="learn_hibernate_demo1" />
         <module name="demo (1) (com.danny)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo (1) (com.danny)" target="1.8" />
+      <module name="helloworld" target="1.8" />
+      <module name="intro_spring" target="17" />
+      <module name="spring-01-ioc1" target="17" />
+      <module name="spring-02-hellospring" target="17" />
+      <module name="spring-03-ioc2" target="17" />
+      <module name="spring-04-di" target="17" />
+      <module name="spring-05-autowired" target="17" />
+      <module name="spring-06-anno" target="17" />
+      <module name="spring-07-appconfig" target="17" />
+      <module name="spring-08-proxy" target="17" />
+      <module name="spring-09-aop" target="17" />
+      <module name="springboot_vue" target="1.8" />
       <module name="springDataJpaDemo2" target="17" />
     </bytecodeTargetLevel>
   </component>

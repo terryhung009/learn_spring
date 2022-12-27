@@ -8,8 +8,12 @@
         <option value="$PROJECT_DIR$/springBoot/狂神說/code/helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_vue/spirngboot/pom.xml" />
         <option value="$PROJECT_DIR$/spring/狂神說/code/pom.xml" />
+        <option value="$PROJECT_DIR$/learn_hibernate_demo1/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
 </project>
