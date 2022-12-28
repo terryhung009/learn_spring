@@ -10,6 +10,8 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 public class HibernateTest {
 
     //Session工廠  Session:數據庫對話 代碼持久化操作數據的一個橋樑
@@ -143,6 +145,38 @@ public class HibernateTest {
             //插入session.save();
             //更新session.update();
             session.remove(customer);
+
+            transaction.commit();
+
+
+        }
+    }
+    @Test
+    public void testReadByHQL(){
+        //session進行持久化操作
+        try(Session session = sf.openSession()){
+            Transaction transaction = session.beginTransaction();
+//            查詢全部
+//            String hql = " FROM Customer";
+//            List<Customer> resultList = session.createQuery(hql, Customer.class)
+//
+//                    .getResultList();
+            //使用where
+            String hql = " FROM Customer where custId=:id";//具名參數
+
+
+            List<Customer> resultList = session.createQuery(hql, Customer.class)
+                    .setParameter("id",1L)
+                    .getResultList();
+
+            System.out.println(resultList);
+
+//            Customer customer = new Customer();
+//            customer.setCustId(2L);
+//            customer.setCustName("徐庶");
+            //插入session.save();
+            //更新session.update();
+//            session.remove(customer);
 
             transaction.commit();
 

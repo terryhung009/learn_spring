@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <!--    需要配置persistence-unit節點
+            持久化單元:
+            name:持久化單元名稱
+            transaction-type:事務管理的方式
+            JTA:分布試事務管理
+            RESOURCE_LOCAL:本地事務管理
+
+
+    -->
+
+
+    <persistence-unit name="hibernateJPA" transaction-type="RESOURCE_LOCAL">
+        <!--        jpa的實現方式-->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!--        需要進行ORM的pojo類-->
+        <class>com.example.entity.Customer</class>
+
+
+        <!--        可選配置:配置jpa實現方的配置訊息-->
+        <properties>
+            <!--            數據庫信息
+                用戶名:javax.persistence.jdbc.user
+                密碼:javax.persistence.jdbc.password
+                驅動:javax.persistence.jdbc.driver
+                數據庫地址:javax.persistence.jdbc.url
+            -->
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="088220"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/springdata_jpa?useUnicode=true"/>
+
+            <!--            配置jpa實現方(hibernate)的配置信息
+                            顯示sql :false|true
+                            自動創建數據庫表: hibernate.hbm2ddl.auto
+                            create:程序運行時創建數據庫表(如果有表，先刪除再創建)
+                            update:程序運行時創建數據庫表(如果有表，不會創建表)
+                            none:不會創建表
+
+
+
+            -->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+
+
+        </properties>
+
+
+    </persistence-unit>
+
+    <persistence-unit name="openJpa" transaction-type="RESOURCE_LOCAL">
+        <!--        jpa的實現方式-->
+        <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+        <!--        需要進行ORM的pojo類-->
+        <class>com.example.entity.Customer</class>
+
+
+        <!--        可選配置:配置jpa實現方的配置訊息-->
+        <properties>
+            <!--            數據庫信息
+                用戶名:javax.persistence.jdbc.user
+                密碼:javax.persistence.jdbc.password
+                驅動:javax.persistence.jdbc.driver
+                數據庫地址:javax.persistence.jdbc.url
+            -->
+<!--            <property name="javax.persistence.jdbc.user" value="root"/>-->
+<!--            <property name="javax.persistence.jdbc.password" value="088220"/>-->
+<!--            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>-->
+<!--            <property name="javax.persistence.jdbc.url"-->
+<!--                      value="jdbc:mysql://localhost:3306/springdata_jpa?useUnicode=true"/>-->
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost:3306/springdata_jpa?useUnicode=true"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="openjpa.ConnectionUserName" value="root"/>
+            <property name="openjpa.ConnectionPassword" value="088220"/>
+
+            <!--            配置jpa實現方(openjpa)的配置信息
+                            
+            -->
+            <!--            可以自動生成數據庫表-->
+            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>
+            <!-- 不使用加载时强化和编译时强化，使用运行时Unenhanced -->
+            <property name="openjpa.ClassLoadEnhancement" value="false" />
+            <property name="openjpa.DynamicEnhancementAgent" value="false" />
+            <property name="openjpa.RuntimeUnenhancedClasses" value="supported" />
+
+        </properties>
+
+
+    </persistence-unit>
+</persistence>
