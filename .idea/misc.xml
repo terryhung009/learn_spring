@@ -10,10 +10,12 @@
         <option value="$PROJECT_DIR$/spring/狂神說/code/pom.xml" />
         <option value="$PROJECT_DIR$/learn_hibernate_demo1/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/learnSpringDataJpaCode1/pom.xml" />
+        <option value="$PROJECT_DIR$/01-jpa-hibernate/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
