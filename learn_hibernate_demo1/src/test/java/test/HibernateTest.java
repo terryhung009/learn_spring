@@ -1,42 +1,3 @@
-# 徐庶老師 講解Spring Data Jpa
-
-![img_1.png](img_1.png)
-
-常用模組
-![img_2.png](img_2.png)
-
-Spring Data特性
-![img_3.png](img_3.png)
-
-spring 官網寫的特性
-![img_4.png](img_4.png)
-
-## 什麼是jpa?
-
-![img_5.png](img_5.png)
-![img_6.png](img_6.png)
-![img_7.png](img_7.png)
-![img_8.png](img_8.png)
-![img_9.png](img_9.png)
-
-## Hibernate 、Mybatis、jpa 的 特性
-
-![img_10.png](img_10.png)
-![img_11.png](img_11.png)
-![img_12.png](img_12.png)
-
-## 學習Hibernate
-
-![img_13.png](img_13.png)
-![img_14.png](img_14.png)
-![img_15.png](img_15.png)
-![img_16.png](img_16.png)
-![img_17.png](img_17.png)
-![img_18.png](img_18.png)
-
-HibernateTest.java
-
-```java
 package test;
 
 import com.example.entity.Customer;
@@ -56,10 +17,10 @@ public class HibernateTest {
     private SessionFactory sf;
 
     @Before
-    public void init() {
+    public void init(){
         StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
                 .configure("/hibernate.cfg.xml")
-                .build();
+                .build() ;
 
         //根據服務註冊類創建一個元數據資源集，同時構建元數據並生成應用一般唯一的session工廠
 
@@ -68,7 +29,7 @@ public class HibernateTest {
     }
 
     @Test
-    public void test() {
+    public void test(){
         //創建session
         Session sess = sf.openSession();
         //開始事務
@@ -86,11 +47,10 @@ public class HibernateTest {
         sf.close();
 
     }
-
     @Test
-    public void testCreate() {
+    public void testCreate(){
         //session進行持久化操作
-        try (Session session = sf.openSession()) {
+        try(Session session = sf.openSession()){
             Transaction transaction = session.beginTransaction();
 
             Customer customer = new Customer();
@@ -104,12 +64,13 @@ public class HibernateTest {
         }
 
 
-    }
 
+
+    }
     @Test
-    public void testRead() {
+    public void testRead(){
         //session進行持久化操作
-        try (Session session = sf.openSession()) {
+        try(Session session = sf.openSession()){
             Transaction transaction = session.beginTransaction();
 
 //            Customer customer = new Customer();
@@ -127,12 +88,13 @@ public class HibernateTest {
         }
 
 
-    }
 
+
+    }
     @Test
-    public void testRead_lazy() {
+    public void testRead_lazy(){
         //session進行持久化操作
-        try (Session session = sf.openSession()) {
+        try(Session session = sf.openSession()){
             Transaction transaction = session.beginTransaction();
 
 //            Customer customer = new Customer();
@@ -151,9 +113,9 @@ public class HibernateTest {
     }
 
     @Test
-    public void testUpdate() {
+    public void testUpdate(){
         //session進行持久化操作
-        try (Session session = sf.openSession()) {
+        try(Session session = sf.openSession()){
             Transaction transaction = session.beginTransaction();
 
             Customer customer = new Customer();
@@ -170,9 +132,9 @@ public class HibernateTest {
     }
 
     @Test
-    public void testDelete() {
+    public void testDelete(){
         //session進行持久化操作
-        try (Session session = sf.openSession()) {
+        try(Session session = sf.openSession()){
             Transaction transaction = session.beginTransaction();
 
             Customer customer = new Customer();
@@ -189,18 +151,5 @@ public class HibernateTest {
     }
 
 
+
 }
-
-```
-
-
-
-
-
-
-
-
-
-
-
-

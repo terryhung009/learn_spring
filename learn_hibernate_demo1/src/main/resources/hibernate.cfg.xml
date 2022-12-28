@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/xsd/hibernate-configuration-3.0.dtd"
+        >
+<hibernate-configuration>
+    <session-factory>
+        <!--        配置數據庫連接資訊-->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/springdata_jpa?useUnicode=true
+        </property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">088220</property>
+
+        <!--        允許顯示SQL語句-->
+        <!--        會在日誌中紀錄sql-->
+        <property name="show_sql">true</property>
+        <!--        是否格式化sql-->
+        <property name="format_sql">true</property>
+        <!--        表的生成策略
+        預設none 不自動生成
+        update 如果沒有表會自動生成，有表會檢查更新
+        create 每次都新建
+        -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!--        配置方言；選擇數據庫類型-->
+        <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+
+        <!--        映射方式-->
+        <mapping class="com.example.entity.Customer"></mapping>
+        <!--        也可以使用xml配置映射-->
+
+
+    </session-factory>
+</hibernate-configuration>
